@@ -32,6 +32,7 @@ export default function Home() {
       >
         Block that thread!
       </button>
+      <input type="text" />
       <canvas ref={ref} width="600" height="300"></canvas>
     </>
   );

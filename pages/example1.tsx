@@ -59,6 +59,7 @@ export default function Home() {
       >
         Block that thread!
       </button>
+
       <button
         onClick={() => {
           const worker = new Worker('worker1.js');
@@ -73,6 +74,7 @@ export default function Home() {
         Block that background thread!
       </button>
 
+      <input type="text" />
       <canvas ref={ref} width="600" height="300"></canvas>
     </>
   );
